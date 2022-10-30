@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First WEB progect</title>
+  <link rel="stylesheet" href="./style.css">
+  
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <style type="text/css">
+      @media only screen and (min-width: 960px) {
+        /* styles for browsers larger than 960px; */
+      }
+      @media only screen and (min-width: 1440px) {
+        /* styles for browsers larger than 1440px; */
+      }
+      @media only screen and (min-width: 2000px) {
+        /* for sumo sized (mac) screens */
+      }
+      @media only screen and (max-device-width: 480px) {
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+      }
+      @media only screen and (device-width: 768px) {
+       /* default iPad screens */
+      }
+      /* different techniques for iPad screening */
+      @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+      }
+      
+      @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+        /* For landscape layouts only */
+      }
+      </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="./assets/Full_moon.png" alt="Moon logo">
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#info">About Moon</a></li>
+        <li><a href="#fqa">What do you want ?</a></li>
+        <li><a href="#cards">Cards</a></li>
+      </ul>
+    </nav>
+    
+    <div class="lang">
+      <a href="#">EN</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-ctn">
+      <h1>Ceorges Melies dreamed, and we will send.</h1>
+    </div>
+
+
+    <div class="about-moon">
+      <div class="info-ctn">
+        <h3>About Moon</h3>
+        <div class="info">
+          <p id="info">
+            The Moon is Earth's only natural satellite. 
+            Together with Earth it forms the Earth–Moon satellite system. 
+            It is about one-quarter of Earth in diameter (comparable to the width of Australia).
+             In the Solar System it is the fifth largest satellite, larger than any of the known 
+             dwarf planets and the largest (and most massive) satellite of a planet relative to the planet.
+              The Moon is a planetary-mass object that formed a differentiated rocky body, making it a 
+              satellite planet under the geophysical definitions of the term. It lacks any significant 
+              atmosphere, hydrosphere, or magnetic field. Its surface gravity is about one-sixth of Earth's (0.1654 g). 
+              Jupiter's moon Io is the only satellite in the Solar System known to have a higher surface gravity and density.
+          </p>
+          <button class="buy">Buy a ticket</button>
+        </div>
+      </div>
+    </div>
+      <div class="apolo-ctn">
+        <img src="./assets/apolo.jpg" alt="Moon">
+      </div>
+      <div class="fqa">
+        <h2 id="fqa">What do you want ?</h2>
+        <div class="answers-ctn">
+          <span>Discover</span>
+          <span>Find new life forms</span>
+          <span>Have fun with friends</span>
+          <span>Take a break from everyday life</span>
+          <span>Think about the future</span>
+          <span>Gain new knowledge</span>
+          
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="./assets/r.png" alt="rocket spacex">
+          <h2 id="cards">Rocket Launch</h2>
+          <p>
+            SpaceX’s Chief Engineer Elon Musk and T-Mobile’s CEO and President Mike Sievert announced today a 
+            breakthrough plan to provide truly universal cellular connectivity.In addition, Elon and Mike shared 
+            their vision for expanding Coverage Above and Beyond globally, issuing an open invitation to the world’s 
+            carriers to collaborate for truly global connectivity. T-Mobile committed to offer reciprocal roaming to 
+            those providers working with them to enable this vision.
+          </p>
+          <button>More</button>
+        </div>
+        <div class="card">
+          <img src="./assets/r.png" alt="rocket spacex">
+          <h2>Future is there</h2>
+          <p>
+            SpaceX was founded to revolutionize space technology towards making life multiplanetary. 
+            SpaceX is the world’s leading provider of launch services and is proud to be the first private 
+            company to have delivered astronauts to and from the International Space Station (ISS), and 
+            the first and only company to complete an all-civilian crewed mission to orbit. As such, SpaceX 
+            is deeply committed to maintaining a safe orbital environment, protecting human spaceflight, 
+            and ensuring the environment is kept sustainable for future missions to Earth orbit and beyond.
+          </p>
+          <button>More</button>
+        </div>
+        <div class="card">
+          <img src="./assets/r.png" alt="rocket spacex">
+          <h2>Satelites</h2>
+          <p>
+            SpaceX satellites are designed and built for high reliability and redundancy in both supply 
+            chain and satellite design to successfully carry out their five-year design life. Rigorous part 
+            and system-level screening and testing enable us to reliably build and launch satellites at very high rates. 
+            We have the capacity to build up to 45 satellites per week, and we have launched up to 240 satellites in a 
+            single month. This is an unprecedented rate of deployment for a complex space system — and reflects SpaceX’s 
+            commitment to increase broadband accessibility around the world with Starlink as soon as feasible.
+          </p>
+          <button>More</button>
+        </div>
+      </div>
+      <div>
+        
+      </div>
+    </main>
+  
+    <footer>
+      <h2>Moon travel</h2>
+      <p>2022-2045 Moon travel</p>
+    </footer>
+    
+  <div class="enter">
+    <form action="/action_page.php" id="form2">
+      <label for="fname">Username(from 3 to 25):</label><br>
+      <input type="text" id="fname" name="fname"minlength="3" maxlength="25" size="3" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="1password">Password(from 8 to 25):</label><br>
+      <input type="password" id="1password" name="1password"minlength="8" maxlength="25"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}" required><br>
+      <label for="2password">Confirm password:</label><br>
+      <input type="password" id="2password" name="2password"minlength="8" maxlength="25" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}"required><br>
+      <button id="sign" >Sign up</button>
+    </form>
+  </div>
+  </main>
+  
+
+</body>
+
+</html>
